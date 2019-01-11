@@ -6,8 +6,7 @@ This repository contains the sample to get started with the Syncfusion's ListVie
 Create a new blank (Xamarin.Forms.Portable) application in Xamarin Studio or Visual Studio for Xamarin.Forms.
 Import the SfListView control namespace Syncfusion.ListView.XForms and set the SfListView control to the ContentPage.
 
-{% tabs %}
-{% highlight xaml %}
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -16,8 +15,8 @@ Import the SfListView control namespace Syncfusion.ListView.XForms and set the S
              x:Class="GettingStarted.MainPage">
   <syncfusion:SfListView x:Name="listView" />
 </ContentPage>
-{% endhighlight %}
-{% highlight c# %}
+```
+```c#
 using Syncfusion.ListView.XForms;
 using Xamarin.Forms;
 
@@ -33,13 +32,11 @@ namespace GettingStarted
         }
     }
 } 
-{% endhighlight %}
-{% endtabs %}
+```
 
 Create a data model to bind it to the control. 
 
-{% tabs %}
-{% highlight c# %}
+```c#
 public class BookInfo : INotifyPropertyChanged
 {
     private string bookName;
@@ -73,14 +70,11 @@ public class BookInfo : INotifyPropertyChanged
            this.PropertyChanged(this, new PropertyChangedEventArgs(name));
     }
 }
- 
-{% endhighlight %}
-{% endtabs %}
+```
 
 Create a model repository class with BookInfo collection property initialized with required number of data objects.
 
-{% tabs %}
-{% highlight c# %}
+```c#
 public class BookInfoRepository
 {
     private ObservableCollection<BookInfo> bookInfo;
@@ -111,9 +105,7 @@ public class BookInfoRepository
         bookInfo.Add(new BookInfo() { BookName = "Windows Store Apps", BookDescription = "Windows Store apps present a radical shift in Windows development" });
     }
 }
-
-{% endhighlight %}
-{% endtabs %}
+```
 
 ## <a name="requirements-to-run-the-demo"></a>Requirements to run the demo ##
 
