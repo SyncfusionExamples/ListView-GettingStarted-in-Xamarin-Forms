@@ -9,7 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.iOS", "Getti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.UWP", "GettingStarted\GettingStarted.UWP\GettingStarted.UWP.csproj", "{336430A4-4B12-4213-8366-159646DE63D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted", "GettingStarted\GettingStarted\GettingStarted.csproj", "{E67EEB35-EE80-4F8B-B781-5AF5DA72B99B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted\GettingStarted.csproj", "{E67EEB35-EE80-4F8B-B781-5AF5DA72B99B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStarted.WPF", "GettingStarted\GettingStarted.WPF\GettingStarted.WPF.csproj", "{E7429203-6EEB-488F-AD05-CF2C274019DF}"
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +330,7 @@ Global
 		{E67EEB35-EE80-4F8B-B781-5AF5DA72B99B}.Release|x86.ActiveCfg = Release|Any CPU
 		{E67EEB35-EE80-4F8B-B781-5AF5DA72B99B}.Release|x86.Build.0 = Release|Any CPU
 		{E67EEB35-EE80-4F8B-B781-5AF5DA72B99B}.Release|x86.Deploy.0 = Release|Any CPU
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
