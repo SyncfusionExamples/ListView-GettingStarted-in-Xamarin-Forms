@@ -25,5 +25,5 @@
     <None Update="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
-  </ItemGroup>
+  </ItemGroup
 </Project>
