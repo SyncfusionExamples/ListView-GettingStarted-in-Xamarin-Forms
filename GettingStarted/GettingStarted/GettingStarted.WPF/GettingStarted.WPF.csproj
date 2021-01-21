@@ -46,22 +46,6 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Net.Http" />
-    <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.Core.WPF">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.SfListView.WPF">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
-    <PackageReference Include="Xamarin.Forms.Platform.WPF">
-      <Version>3.6.0.344457</Version>
-    </PackageReference>
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
@@ -118,6 +102,20 @@
       <Project>{e67eeb35-ee80-4f8b-b781-5af5da72b99b}</Project>
       <Name>GettingStarted</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView">
+      <Version>18.4.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView.WPF">
+      <Version>18.4.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.5.0.617</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms.Platform.WPF">
+      <Version>4.5.0.617</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
