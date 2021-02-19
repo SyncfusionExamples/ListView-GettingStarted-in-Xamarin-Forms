@@ -15,7 +15,7 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-   <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -46,25 +46,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Syncfusion.Licensing">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.Core">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.DataSource">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.GridCommon">
-      <Version>17.3.0.14</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.Xamarin.SfListView">
-      <Version>17.3.0.14</Version>
-
-    </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -103,10 +84,18 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GettingStarted\GettingStarted.csproj">
-    <Project>{e67eeb35-ee80-4f8b-b781-5af5da72b99b}</Project>
+      <Project>{e67eeb35-ee80-4f8b-b781-5af5da72b99b}</Project>
 
       <Name>GettingStarted</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.SfListView">
+      <Version>18.4.0.35</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.5.0.617</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
